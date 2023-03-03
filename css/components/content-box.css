@@ -1,6 +1,8 @@
 .content__box {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  max-width: 700px;
 }
 
 .content__title {
@@ -9,19 +11,33 @@
   margin-bottom: 10px;
 }
 
+.content__subtitle {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
 .content__contents {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-bottom: 10px;
 }
 
 .content__text {
   width: 45%;
-  text-indent: 3px;
+  text-indent: 7px;
   font-size: 16px;
+  margin: 0px 5px;
+}
+
+.wide {
+  width: 90%;
 }
 
 .content__image {
-  width: 50%;
+  width: 45%;
+  max-width: 400px;
+  margin: 0px 5px;
+  border-radius: 10px;
 }
