@@ -1,0 +1,48 @@
+.social-media__box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 7px 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  text-decoration: none;
+  width: 200px;
+}
+
+.social-media span {
+  margin-left: 3px;
+}
+
+.social-media i {
+  margin-right: 3px;
+}
+
+.kakao {
+  color: var(--black);
+  margin-top: 10px;
+  background-color: var(--yellow);
+}
+
+.instagram {
+  color: var(--white);
+  background: radial-gradient(
+      circle farthest-corner at 28% 100%,
+      var(--instagram-yellow) 0%,
+      var(--instagram-yellow_to) 10%,
+      var(--instagram-orange) 22%,
+      var(--instagram-red) 35%,
+      transparent 65%
+    ),
+    linear-gradient(
+      145deg,
+      var(--instagram-blue) 10%,
+      var(--instagram-purple) 70%
+    );
+}

@@ -1,0 +1,27 @@
+.content__box {
+  display: flex;
+  flex-direction: column;
+}
+
+.content__title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.content__contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.content__text {
+  width: 45%;
+  text-indent: 3px;
+  font-size: 16px;
+}
+
+.content__image {
+  width: 50%;
+}

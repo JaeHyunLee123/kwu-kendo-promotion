@@ -3,23 +3,40 @@
 /* config */
 @import "./config/reset.css";
 @import "./config/variables.css";
+/* component */
+@import "./components/content-box.css";
+@import "./components/social-media-anchor.css";
 
 body {
-  margin: 0px 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   font-family: "Gowun Batang", serif;
   color: var(--black);
   background-color: var(--white);
 }
 
+main {
+  margin: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  background-color: var(--crimson);
+  color: var(--white);
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 15px;
+}
+
+header {
+  background: var(--crimson);
+  margin-bottom: 16px;
+}
+
 .header__title {
   font-weight: 700;
   font-size: 30px;
-  margin: 16px 0px;
-  background: linear-gradient(90deg, var(--crimson), var(--black));
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
+  text-align: center;
+  padding: 16px 0px;
+  color: var(--white);
 }
